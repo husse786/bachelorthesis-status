@@ -1,0 +1,67 @@
+{
+  "stand": "2026-11-17",
+  "titel": "Bachelorarbeit Wirtschaftsinformatik",
+  "semester": "Frühjahrssemester 2027",
+  "zeitraum": { "von": "2026-10-01", "bis": "2027-07-10" },
+  "start": "2027-02-22",
+  "abgabe": "2027-06-02",
+  "dringendTage": 14,
+  "meilensteine": [
+    { "datum": "2026-10-12", "titel": "Thema gewählt", "erledigt": true },
+    { "datum": "2026-10-16", "titel": "Thema eingereicht", "erledigt": true },
+    { "datum": "2026-11-08", "titel": "Thema zugewiesen", "erledigt": true },
+    { "datum": "2026-11-10", "titel": "Idee vor Fachpublikum vorgestellt", "erledigt": true },
+    { "datum": "2026-12-17", "titel": "Frist Themenzuweisung", "erledigt": true },
+    { "datum": "2027-02-22", "titel": "Start Bearbeitung", "erledigt": false },
+    { "datum": "2027-03-19", "titel": "Besprechung Disposition (ca.)", "erledigt": false },
+    { "datum": "2027-04-23", "titel": "Besprechung Zwischenstand (ca.)", "erledigt": false },
+    { "datum": "2027-05-26", "titel": "Titel definitiv", "erledigt": false },
+    { "datum": "2027-06-02", "titel": "Abgabe", "erledigt": false },
+    { "datum": "2027-07-05", "titel": "Bewertung abgeschlossen", "erledigt": false }
+  ],
+  "phasen": [
+    {
+      "name": "Vorbereitung",
+      "gewicht": 10,
+      "aufgaben": [
+        { "titel": "Thema wählen", "status": "erledigt", "datum": "2026-10-12" },
+        { "titel": "Betreuung sichern", "status": "erledigt", "datum": "2026-10-13" },
+        { "titel": "Thema einreichen", "status": "erledigt", "datum": "2026-10-16" },
+        { "titel": "Arbeitsumgebung einrichten", "status": "erledigt", "datum": "2026-11-08" },
+        { "titel": "Thema zugewiesen erhalten", "status": "erledigt", "datum": "2026-11-08" },
+        { "titel": "Idee vor Fachpublikum vorstellen", "status": "erledigt", "datum": "2026-11-10" },
+        { "titel": "Fachkontakte aufnehmen", "status": "offen", "zaehler": [0, 3] },
+        { "titel": "Kontakt zu Fachpersonen aus der Praxis aufnehmen", "status": "offen" },
+        { "titel": "Literatur sichten und ordnen", "status": "offen" },
+        { "titel": "Ablage für Erhebungsdaten festlegen", "status": "offen" }
+      ]
+    },
+    {
+      "name": "Disposition",
+      "gewicht": 15,
+      "aufgaben": [
+        { "titel": "Zielgruppe eingrenzen", "status": "offen" },
+        { "titel": "Form des Artefakts festlegen", "status": "offen" },
+        { "titel": "Forschungsfrage schärfen", "status": "offen" },
+        { "titel": "Methode herleiten und begründen", "status": "offen" },
+        { "titel": "Umgang mit Bias planen", "status": "offen" },
+        { "titel": "Ethik und Datenschutz klären", "status": "offen" },
+        { "titel": "Zeitplan für 14 Wochen erstellen", "status": "offen" },
+        { "titel": "Disposition besprechen", "status": "offen", "faellig": "2027-03-19" }
+      ]
+    },
+    { "name": "Erhebung", "gewicht": 20, "gesperrt": true },
+    { "name": "Konzept", "gewicht": 10, "gesperrt": true },
+    { "name": "Prototyp", "gewicht": 20, "gesperrt": true },
+    { "name": "Evaluation", "gewicht": 10, "gesperrt": true },
+    { "name": "Schreiben", "gewicht": 10, "gesperrt": true },
+    {
+      "name": "Abgabe",
+      "gewicht": 5,
+      "aufgaben": [
+        { "titel": "Titel definitiv festlegen", "status": "offen", "faellig": "2027-05-26" },
+        { "titel": "Arbeit abgeben", "status": "offen", "faellig": "2027-06-02" }
+      ]
+    }
+  ]
+}
