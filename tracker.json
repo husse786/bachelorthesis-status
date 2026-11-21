@@ -1,0 +1,288 @@
+{
+  "schema": "vergabo.tracker/v1",
+  "id": "bachelorthesis",
+  "name": "Bachelorarbeit Wirtschaftsinformatik",
+  "tagline": "Frühjahrssemester 2027",
+  "updatedAt": "2026-11-17T18:24:17Z",
+  "status": {
+    "phase": "Vorbereitung",
+    "health": "on-track",
+    "summary": "Level 1 von 8: Vorbereitung, 6 von 10 Aufgaben erledigt. Nächster Meilenstein: Start Bearbeitung, 22.02.2027."
+  },
+  "progress": {
+    "percent": 6,
+    "label": "gewichtet nach Phasen"
+  },
+  "deadline": {
+    "date": "2027-06-02",
+    "label": "Abgabe"
+  },
+  "milestones": [
+    {
+      "name": "Thema gewählt",
+      "date": "2026-10-12",
+      "status": "done"
+    },
+    {
+      "name": "Thema eingereicht",
+      "date": "2026-10-16",
+      "status": "done"
+    },
+    {
+      "name": "Thema zugewiesen",
+      "date": "2026-11-08",
+      "status": "done"
+    },
+    {
+      "name": "Idee vor Fachpublikum vorgestellt",
+      "date": "2026-11-10",
+      "status": "done"
+    },
+    {
+      "name": "Frist Themenzuweisung",
+      "date": "2026-12-17",
+      "status": "done"
+    },
+    {
+      "name": "Start Bearbeitung",
+      "date": "2027-02-22",
+      "status": "open"
+    },
+    {
+      "name": "Besprechung Disposition (ca.)",
+      "date": "2027-03-19",
+      "status": "open"
+    },
+    {
+      "name": "Besprechung Zwischenstand (ca.)",
+      "date": "2027-04-23",
+      "status": "open"
+    },
+    {
+      "name": "Titel definitiv",
+      "date": "2027-05-26",
+      "status": "open"
+    },
+    {
+      "name": "Abgabe",
+      "date": "2027-06-02",
+      "status": "open"
+    },
+    {
+      "name": "Bewertung abgeschlossen",
+      "date": "2027-07-05",
+      "status": "open"
+    }
+  ],
+  "phases": [
+    {
+      "id": "P1",
+      "name": "Vorbereitung",
+      "weight": 10,
+      "tasks": [
+        {
+          "t": "Thema wählen",
+          "status": "done",
+          "date": "2026-10-12"
+        },
+        {
+          "t": "Betreuung sichern",
+          "status": "done",
+          "date": "2026-10-13"
+        },
+        {
+          "t": "Thema einreichen",
+          "status": "done",
+          "date": "2026-10-16"
+        },
+        {
+          "t": "Arbeitsumgebung einrichten",
+          "status": "done",
+          "date": "2026-11-08"
+        },
+        {
+          "t": "Thema zugewiesen erhalten",
+          "status": "done",
+          "date": "2026-11-08"
+        },
+        {
+          "t": "Idee vor Fachpublikum vorstellen",
+          "status": "done",
+          "date": "2026-11-10"
+        },
+        {
+          "t": "Fachkontakte aufnehmen (0 von 3)",
+          "status": "open"
+        },
+        {
+          "t": "Kontakt zu Fachpersonen aus der Praxis aufnehmen",
+          "status": "open"
+        },
+        {
+          "t": "Literatur sichten und ordnen",
+          "status": "open"
+        },
+        {
+          "t": "Ablage für Erhebungsdaten festlegen",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Disposition",
+      "weight": 15,
+      "tasks": [
+        {
+          "t": "Zielgruppe eingrenzen",
+          "status": "open"
+        },
+        {
+          "t": "Form des Artefakts festlegen",
+          "status": "open"
+        },
+        {
+          "t": "Forschungsfrage schärfen",
+          "status": "open"
+        },
+        {
+          "t": "Methode herleiten und begründen",
+          "status": "open"
+        },
+        {
+          "t": "Umgang mit Bias planen",
+          "status": "open"
+        },
+        {
+          "t": "Ethik und Datenschutz klären",
+          "status": "open"
+        },
+        {
+          "t": "Zeitplan für 14 Wochen erstellen",
+          "status": "open"
+        },
+        {
+          "t": "Disposition besprechen",
+          "status": "open",
+          "date": "2027-03-19"
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Erhebung",
+      "weight": 20,
+      "tasks": []
+    },
+    {
+      "id": "P4",
+      "name": "Konzept",
+      "weight": 10,
+      "tasks": []
+    },
+    {
+      "id": "P5",
+      "name": "Prototyp",
+      "weight": 20,
+      "tasks": []
+    },
+    {
+      "id": "P6",
+      "name": "Evaluation",
+      "weight": 10,
+      "tasks": []
+    },
+    {
+      "id": "P7",
+      "name": "Schreiben",
+      "weight": 10,
+      "tasks": []
+    },
+    {
+      "id": "P8",
+      "name": "Abgabe",
+      "weight": 5,
+      "tasks": [
+        {
+          "t": "Titel definitiv festlegen",
+          "status": "open",
+          "date": "2027-05-26"
+        },
+        {
+          "t": "Arbeit abgeben",
+          "status": "open",
+          "date": "2027-06-02"
+        }
+      ]
+    }
+  ],
+  "todos": [
+    {
+      "t": "Fachkontakte aufnehmen (0 von 3)",
+      "why": "Vorbereitung"
+    },
+    {
+      "t": "Kontakt zu Fachpersonen aus der Praxis aufnehmen",
+      "why": "Vorbereitung"
+    },
+    {
+      "t": "Literatur sichten und ordnen",
+      "why": "Vorbereitung"
+    },
+    {
+      "t": "Ablage für Erhebungsdaten festlegen",
+      "why": "Vorbereitung"
+    }
+  ],
+  "agents": [
+    {
+      "name": "Tracker-Generator",
+      "status": "idle",
+      "kind": "workflow",
+      "rhythm": "bei jedem Push auf status.json",
+      "what": "Erzeugt tracker.json aus status.json",
+      "url": "https://github.com/husse786/bachelorthesis-status/actions/workflows/tracker.yml"
+    }
+  ],
+  "links": [
+    {
+      "label": "Statusseite",
+      "url": "https://husse786.github.io/bachelorthesis-status/",
+      "note": "Öffentliche Übersicht"
+    },
+    {
+      "label": "Repository",
+      "url": "https://github.com/husse786/bachelorthesis-status"
+    }
+  ],
+  "activity": [
+    {
+      "t": "Idee vor Fachpublikum vorstellen",
+      "date": "2026-11-10"
+    },
+    {
+      "t": "Arbeitsumgebung einrichten",
+      "date": "2026-11-08"
+    },
+    {
+      "t": "Thema zugewiesen erhalten",
+      "date": "2026-11-08"
+    },
+    {
+      "t": "Thema einreichen",
+      "date": "2026-10-16"
+    },
+    {
+      "t": "Betreuung sichern",
+      "date": "2026-10-13"
+    },
+    {
+      "t": "Thema wählen",
+      "date": "2026-10-12"
+    }
+  ],
+  "page": {
+    "url": "https://husse786.github.io/bachelorthesis-status/",
+    "embed": true
+  }
+}
