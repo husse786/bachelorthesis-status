@@ -1,0 +1,56 @@
+name: Tracker
+
+# Erzeugt tracker.json aus status.json, damit Statusseite und Tracker immer übereinstimmen.
+# Pull Request: nur erzeugen und prüfen. Push auf main: erzeugen, prüfen und bei Änderung committen.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - status.json
+      - scripts/tracker.mjs
+      - .github/workflows/tracker.yml
+  pull_request:
+    paths:
+      - status.json
+      - scripts/tracker.mjs
+      - .github/workflows/tracker.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tracker-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  tracker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # für den Zeitpunkt des letzten Commits auf status.json
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Prüfen (Pull Request)
+        if: github.event_name == 'pull_request'
+        run: node scripts/tracker.mjs --check
+
+      - name: Erzeugen und committen (main)
+        if: github.event_name != 'pull_request'
+        run: |
+          node scripts/tracker.mjs
+          node scripts/tracker.mjs --check
+          if git diff --quiet --exit-code -- tracker.json && git ls-files --error-unmatch tracker.json >/dev/null 2>&1; then
+            echo "tracker.json unverändert."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add tracker.json
+          git commit -m "tracker.json aus status.json erzeugt"
+          git push
