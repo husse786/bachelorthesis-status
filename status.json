@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-17",
+  "stand": "2026-11-22",
   "titel": "Bachelorarbeit Wirtschaftsinformatik",
   "semester": "Frühjahrssemester 2027",
   "zeitraum": { "von": "2026-10-01", "bis": "2027-07-10" },
@@ -47,6 +47,7 @@
         { "titel": "Umgang mit Bias planen", "status": "offen" },
         { "titel": "Ethik und Datenschutz klären", "status": "offen" },
         { "titel": "Zeitplan für 14 Wochen erstellen", "status": "offen" },
+        { "titel": "Disposition fertigstellen", "status": "offen" },
         { "titel": "Disposition besprechen", "status": "offen", "faellig": "2027-03-19" }
       ]
     },
