@@ -3,7 +3,7 @@
   "id": "bachelorthesis",
   "name": "Bachelorarbeit Wirtschaftsinformatik",
   "tagline": "Frühjahrssemester 2027",
-  "updatedAt": "2026-11-17T18:24:17Z",
+  "updatedAt": "2026-11-22T08:11:01Z",
   "status": {
     "phase": "Vorbereitung",
     "health": "on-track",
@@ -159,6 +159,10 @@
         },
         {
           "t": "Zeitplan für 14 Wochen erstellen",
+          "status": "open"
+        },
+        {
+          "t": "Disposition fertigstellen",
           "status": "open"
         },
         {
