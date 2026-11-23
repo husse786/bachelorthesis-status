@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-22",
+  "stand": "2026-11-23",
   "titel": "Bachelorarbeit Wirtschaftsinformatik",
   "semester": "Frühjahrssemester 2027",
   "zeitraum": { "von": "2026-10-01", "bis": "2027-07-10" },
@@ -32,7 +32,9 @@
         { "titel": "Idee vor Fachpublikum vorstellen", "status": "erledigt", "datum": "2026-11-10" },
         { "titel": "Fachkontakte aufnehmen", "status": "offen", "zaehler": [0, 3] },
         { "titel": "Kontakt zu Fachpersonen aus der Praxis aufnehmen", "status": "offen" },
+        { "titel": "Recherchemethodik erarbeiten", "status": "erledigt", "datum": "2026-11-23" },
         { "titel": "Literatur sichten und ordnen", "status": "offen" },
+        { "titel": "Recherche fachlich beraten lassen", "status": "offen" },
         { "titel": "Ablage für Erhebungsdaten festlegen", "status": "offen" }
       ]
     },
