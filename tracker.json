@@ -3,11 +3,11 @@
   "id": "bachelorthesis",
   "name": "Bachelorarbeit Wirtschaftsinformatik",
   "tagline": "Frühjahrssemester 2027",
-  "updatedAt": "2026-11-22T08:11:01Z",
+  "updatedAt": "2026-11-23T18:11:47Z",
   "status": {
     "phase": "Vorbereitung",
     "health": "on-track",
-    "summary": "Level 1 von 8: Vorbereitung, 6 von 10 Aufgaben erledigt. Nächster Meilenstein: Start Bearbeitung, 22.02.2027."
+    "summary": "Level 1 von 8: Vorbereitung, 7 von 12 Aufgaben erledigt. Nächster Meilenstein: Start Bearbeitung, 22.02.2027."
   },
   "progress": {
     "percent": 6,
@@ -119,7 +119,16 @@
           "status": "open"
         },
         {
+          "t": "Recherchemethodik erarbeiten",
+          "status": "done",
+          "date": "2026-11-23"
+        },
+        {
           "t": "Literatur sichten und ordnen",
+          "status": "open"
+        },
+        {
+          "t": "Recherche fachlich beraten lassen",
           "status": "open"
         },
         {
@@ -234,6 +243,10 @@
       "why": "Vorbereitung"
     },
     {
+      "t": "Recherche fachlich beraten lassen",
+      "why": "Vorbereitung"
+    },
+    {
       "t": "Ablage für Erhebungsdaten festlegen",
       "why": "Vorbereitung"
     }
@@ -260,6 +273,10 @@
     }
   ],
   "activity": [
+    {
+      "t": "Recherchemethodik erarbeiten",
+      "date": "2026-11-23"
+    },
     {
       "t": "Idee vor Fachpublikum vorstellen",
       "date": "2026-11-10"
