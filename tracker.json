@@ -3,7 +3,7 @@
   "id": "bachelorthesis",
   "name": "Bachelorarbeit Wirtschaftsinformatik",
   "tagline": "Frühjahrssemester 2027",
-  "updatedAt": "2026-11-23T18:11:47Z",
+  "updatedAt": "2026-11-23T18:51:33Z",
   "status": {
     "phase": "Vorbereitung",
     "health": "on-track",
@@ -119,7 +119,7 @@
           "status": "open"
         },
         {
-          "t": "Recherchemethodik erarbeiten",
+          "t": "An Recherche-Schulung teilnehmen",
           "status": "done",
           "date": "2026-11-23"
         },
@@ -128,7 +128,7 @@
           "status": "open"
         },
         {
-          "t": "Recherche fachlich beraten lassen",
+          "t": "Recherchestrategie und Vorgehen festlegen",
           "status": "open"
         },
         {
@@ -243,7 +243,7 @@
       "why": "Vorbereitung"
     },
     {
-      "t": "Recherche fachlich beraten lassen",
+      "t": "Recherchestrategie und Vorgehen festlegen",
       "why": "Vorbereitung"
     },
     {
@@ -274,7 +274,7 @@
   ],
   "activity": [
     {
-      "t": "Recherchemethodik erarbeiten",
+      "t": "An Recherche-Schulung teilnehmen",
       "date": "2026-11-23"
     },
     {
